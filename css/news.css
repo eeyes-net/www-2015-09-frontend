@@ -1,0 +1,62 @@
+/* 小瞳新闻和大屏幕部分样式 */
+.e-news-icon {
+	margin: 0 10px;
+	height: 40px;
+	width: 40px;
+}
+.e-news-icon-news {background: url(../images/sprite.png) 0 -52px no-repeat;}
+.e-news-icon-piao {background: url(../images/sprite.png) -40px -52px no-repeat;}
+.e-piao-wrapper {padding: 22px 0 0 26px;}
+.e-piao-wrapper > a > img:hover {
+	opacity: 0.8;
+}
+.e-piao-info > p {font-size: 13px;}
+.e-piao-wrapper > a > img {
+	width: 102px;
+	border: none;
+
+	transition: all .5s;
+
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+.e-piao-wrapper > a {
+	display: inline-block;
+	width: 102px;
+	height: 144px;
+	background-color: #03518a;
+}
+.e-piao-info {
+	display: inline-block;
+	vertical-align: top;
+	padding-left: 25px;
+}
+.e-piao-info > h4 > a:hover {opacity: 0.6;}
+.e-piao-btn {
+	display: inline-block;
+	height: 29px;
+	width: 99px;
+	margin-top: 15px;
+
+	line-height: 29px;
+	text-align: center;
+	color: #03518a;
+
+	border-radius: 5px;
+	border: 1px solid #03518a;
+
+	transition: .5s all;
+}
+.e-piao-btn:hover {
+	background-color: #03518a;
+	color: #f5f6e3;;
+}
+.e-news-list {padding: 18px 0 0 63px;}
+.e-news-list > li{
+	list-style-type: circle;
+	font-size: 16px;
+	line-height: 2;
+}
+.e-news-list > li > a:hover {color: #03518a;}
+.e-news-line {top: 20px;}

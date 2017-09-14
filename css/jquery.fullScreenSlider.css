@@ -1,0 +1,72 @@
+/*箭头样式*/
+.mos-array-left,.mos-array-right{
+	display: block;
+	width: 20px;
+	height: 52px;
+	margin-top: -26px; 
+	position:absolute;
+	z-index: 999;
+	top:50%;
+    transition:.5s;
+}
+.mos-array-left{
+	left:0;
+	background: url(../images/sprite.png) 0 0 no-repeat;
+}
+.mos-array-right{
+	right:0;
+	background: url(../images/sprite.png) -20px 0 no-repeat;
+}
+.mos-array-left:hover,.mos-array-right:hover{
+	opacity:0.4;
+	cursor:pointer;
+
+}
+.mos-array-left img,.mos-array-right img{
+  position: absolute;
+  top:50%;
+  margin-top: -50px;
+}
+/*焦点列表样式*/
+.mos-focus-dot{
+	position: absolute;
+	right:2em;
+	bottom:2em;
+	z-index:999;
+}
+.mos-focus-dot li{
+	width:10px;
+	height: 10px;	
+  	border:1px solid #333;
+	float: left;
+	margin:0 15px;
+	border-radius:50%;
+	background-color:#fff;
+	cursor:pointer;
+    transition:.5s all;/*ie10*/
+    -webkit-transition:.5s all;
+}
+li.mos-dot-active{
+	background-color: #00CEFF;
+    border:1px solid #fff;
+}
+.mos-description{
+  position: absolute;
+  top:15%;
+  right:10%;
+  width: 15em;
+  padding:2em;
+  background-color: rgba(51,51,51,0.6);
+  color:#fff;
+  font-family: 微软雅黑;
+}
+.mos-description-head{
+  font-size: 1.5em;
+  font-weight: normal;
+  margin: .5em 0;
+}
+#slider{
+	width: 1280px;
+	height: 300px;
+	margin: 50px auto;
+}

@@ -1,0 +1,29 @@
+/* footer部分样式 */
+.e-footer {
+	position: relative;
+	height: 155px;
+	margin-top: 64px;
+	background-color: #313131;
+}
+.e-footer-logo {
+	position: absolute;
+	left: 60px;
+
+	width: 58px;
+	height: 88px;
+
+	background: url(../images/sprite.png) -140px 0 no-repeat;
+}
+.e-footer-list {padding-top: 34px;}
+.e-footer-list > li {display: inline-block;}
+.e-footer-list > li > a {
+	padding: 0 14px;
+	color: #626262;
+}
+
+.e-icp, .e-copyright {
+	color: #626262;
+	line-height: 1;
+}
+.e-copyright {padding-top: 26px;}
+.e-icp {padding-top: 15px;}

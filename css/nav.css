@@ -1,0 +1,56 @@
+/* 导航栏部分样式 */
+.e-nav {
+	margin-top: 28px;
+	height: 48px;
+	background-color: #0087b4;
+}
+.e-nav-left {
+	position: relative;
+	top: -16px;
+	height: 77px;
+	width: 146px;
+	border-radius: 0 5px 5px 0;
+	background-color: #0087b4;
+}
+.e-nav-bg {
+	position: absolute;
+	background-color: #0087b4;
+	right: 142px;
+	height: 77px;
+	padding-left: 1000em;
+}
+.e-nav-title {
+	display: inline-block;
+	width: 198px;
+	height: 47px;
+	background: url(../images/sprite.png) 0 -92px no-repeat;
+}
+.e-nav-logo {
+	width: 60px;
+	height: 77px;
+	margin-left: 71px;
+	background: url(../images/sprite.png) -80px 0 no-repeat;
+}
+.e-nav-right {
+	height: 48px;
+	background-color: #f5f6e3;
+}
+.e-nav-list {
+	height: 48px;
+	border-radius: 5px 0 0 5px;
+	background-color: #0087b4;
+}
+.e-nav-list li {float: left;}
+.e-nav-list a {
+	display: inline-block;
+	width: 130px;
+	height: 48px;
+
+	font-size: 18px;
+	color: #eaeaea;
+	line-height: 48px;
+	text-align: center;
+
+	transition: .5s all;
+}
+.e-nav-list a:hover {background-color: #156d8b;}

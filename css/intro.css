@@ -1,0 +1,41 @@
+/* 社团介绍部分样式 */
+.e-intro {min-width: 1280px;}
+.e-intro-title {margin-top: 59px;}
+.e-intro-photo {
+	padding: 33px 0 2em 19px;
+	position: relative;
+	z-index: 9;
+}
+.e-intro-text {
+	margin-top: 26px;
+	padding-right: 7em;
+	position: relative;
+	font-size: 14px;
+}
+.e-intro-black {
+	position: relative; /* 这里没有像导航栏最左侧一样用absolute处理是为了方便下面元素的定位，但是就需要给外围元素处理溢出 */
+	left: 0;
+
+	width: 100%;
+	height: 158px;
+	margin-left: -1000em;
+	padding: 0 100em 0 1000em;
+
+	background-color: #313131;
+}
+.e-intro-black p.e-intro-black-inner {
+	text-indent: 0;
+	color: #f5f6e3;
+}
+.e-intro-text p {text-indent: 2em;}
+.e-intro-flag {
+	position: absolute;
+	right: 97em;
+	bottom: 2em;
+}
+.e-intro-div {padding: 0 25px;}
+.e-intro-div p {
+	font-size: 15px;
+	text-align: left;
+}
+.e-intro-div-title {margin-top: 44px;}

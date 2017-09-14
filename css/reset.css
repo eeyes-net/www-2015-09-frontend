@@ -1,0 +1,18 @@
+/* reset部分样式 */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 微软雅黑;
+}
+a {text-decoration: none;}
+li {list-style-type: none;}
+h2, h3. h4 {
+	font-weight: normal;
+	color: #03518a;
+}
+h2 {font-size: 30px;}
+h3 {font-size: 20px;}
+h4 {font-size: 15px;}
+hr {color: #959595;}
+
+

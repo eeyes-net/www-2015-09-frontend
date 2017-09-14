@@ -1,0 +1,71 @@
+/* reset部分样式 */
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 微软雅黑;
+	color: #2e322c;
+}
+a {text-decoration: none;}
+li {list-style-type: none;}
+h2, h3, h4 > a, h5 {
+	font-weight: normal;
+	color: #03518a;
+}
+h2 {
+	font-size: 38px;
+	line-height: 38px;
+}
+h3 {
+	font-size: 30px;
+	font-style: italic;
+	line-height: 40px;
+	background-color: #f5f6e3; /* 用于和hr线配合使用 */
+	padding-right: 10px;
+}
+h4 > a{
+	font-size: 22px;
+	line-height: 40px;
+}
+h5 {
+	font-size: 16px;
+	line-height: 30px;
+}
+hr {
+	position: relative;
+	margin: 20px 50px;
+	height: 1px;
+	border-width:0;
+	color: #959595;
+	background-color: #959595;
+}
+body, section, nav, header {background-color: #f5f6e3;}
+p {line-height: 2;}
+
+/* 全局公用类 */
+.e-fl {float: left;} /* 浮动 */
+.e-cl {clear: both;} /* 清除浮动 */
+.e-of {overflow: hidden;}
+.e-wrapper { /* 块居中 */
+	width: 1280px;
+	margin: 0 auto;
+}
+.e-bgw {background-color: #f5f6e3;} /* 专门用来处理导航栏最左侧logo的圆角 */
+.e-tc {text-align: center;} /* 文本居中 */
+.e-sh {color: #2e322c;} /* 专门用于修改二级标题中默认字体颜色为#2e322c */
+.e-3-1 {
+	width: 33.3%;
+	box-sizing: border-box;
+	float: left;
+}
+.e-2-1 {
+	width: 50%;
+	box-sizing: border-box;
+	float: left;
+}
+.e-big-line { /* 用于大标题的上下划线 */
+	width: 450px;
+	display: inline-block;
+}
+.e-big-line-top { /* 微调线的位置 */
+	top: 7px;
+}
